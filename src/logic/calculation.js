@@ -30,7 +30,8 @@ export default class Calculation {
             let sign = matches[3];
 
             console.log(matches);
-
+            this.a = Number(matches[2]);
+            this.b = Number(matches[4]);
             /**
              * @TODO Implement it
              */
